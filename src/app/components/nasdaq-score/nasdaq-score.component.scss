@@ -1,0 +1,29 @@
+.stock-price {
+    display: absolute;
+    width: 120px;
+    height: 65px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(109, 109, 109, 0.4);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(112, 120, 126);
+
+
+  }
+
+  h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: -5px;
+  }

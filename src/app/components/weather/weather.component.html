@@ -1,0 +1,15 @@
+<div class="weather-card">
+  
+    <div>
+      <label for="city">Select a city:</label>
+      <select id="city" [(ngModel)]="selectedCity" (change)="getWeatherData(selectedCity)">
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+  
+    <div class="weather-info" *ngIf="weatherData">
+      <img [src]="'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png'" alt="weather icon">
+      <h2>{{ weatherData.name }}</h2>
+      <h3>{{ weatherData.main.temp }}&deg;C</h3>
+    </div>
+  </div>

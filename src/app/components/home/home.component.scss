@@ -1,0 +1,15 @@
+.container-fluid {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(109, 109, 109, 0.4);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(112, 120, 126);
+
+}

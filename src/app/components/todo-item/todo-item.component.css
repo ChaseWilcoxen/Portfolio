@@ -1,0 +1,27 @@
+.del {
+    justify-items: auto;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .todo {
+    background-color: rgb(109, 109, 109, 0.4);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(112, 120, 126);
+    
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+  }
+  
+  .is-complete {
+    text-decoration: line-through;
+  }
+  

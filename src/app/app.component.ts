@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+  isMobile: Observable<BreakpointState>;
+
+
+  constructor(private breakpointObserver: BreakpointObserver) { }
+  
+  ngOnInit() { 
+    this.isMobile = this.breakpointObserver.observe(Breakpoints.Handset);
+
+  }
+
 }
